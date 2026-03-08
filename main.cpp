@@ -17,7 +17,7 @@ void userMemoryAllocation() {
     const int TOTAL_PAGES = 100;
     const int PAGE_SIZE_MB = 160;
     const int UNIT_SIZE_MB = 80;
-    int memoryArray[TOTAL_PAGES] = {0}; // Initialize 100 pages to 0 (empty)
+    int memoryArray[TOTAL_PAGES] = {0};
     
     vector<Process> report;
     int currentPageIndex = 0;
